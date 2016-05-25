@@ -1,0 +1,38 @@
+@charset "utf-8";
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	line-height:22px;
+	font-family:"宋体","Arial Narrow";
+	background:#fff url(../img/index_bodybg.gif) repeat-x 0px 0px;
+}
+ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, p, img, input,div{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+img{
+	vertical-align: middle;
+	margin-top:5px; 
+	} /* 图片基线对齐*/
+input{border: none;}
+.lf{float: left;}
+.rt{float: right;}
+.clear{clear: both;}
+/*header*/
+.header_top{
+	width: 100%;
+	min-height: 70px;
+	margin:auto;
+	background: url(../img/tg_navbg.jpg);
+}
+.header{
+	width: 60%;
+	margin:auto;
+}
